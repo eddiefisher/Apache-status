@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775AB95D15CA0FFF00D345D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775AB95C15CA0FFF00D345D8 /* Cocoa.framework */; };
+		775AB96715CA0FFF00D345D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775AB96515CA0FFF00D345D8 /* InfoPlist.strings */; };
+		775AB96915CA0FFF00D345D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775AB96815CA0FFF00D345D8 /* main.m */; };
+		775AB96D15CA0FFF00D345D8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 775AB96B15CA0FFF00D345D8 /* Credits.rtf */; };
+		775AB97015CA0FFF00D345D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 775AB96F15CA0FFF00D345D8 /* AppDelegate.m */; };
+		775AB97315CA0FFF00D345D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775AB97115CA0FFF00D345D8 /* MainMenu.xib */; };
+		775AB97B15CA0FFF00D345D8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775AB97A15CA0FFF00D345D8 /* SenTestingKit.framework */; };
+		775AB97C15CA0FFF00D345D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775AB95C15CA0FFF00D345D8 /* Cocoa.framework */; };
+		775AB98415CA0FFF00D345D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775AB98215CA0FFF00D345D8 /* InfoPlist.strings */; };
+		775AB98715CA0FFF00D345D8 /* Apache_statusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 775AB98615CA0FFF00D345D8 /* Apache_statusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775AB97D15CA0FFF00D345D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775AB94F15CA0FFF00D345D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775AB95715CA0FFF00D345D8;
+			remoteInfo = "Apache status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		775AB95815CA0FFF00D345D8 /* Apache status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apache status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775AB95C15CA0FFF00D345D8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		775AB95F15CA0FFF00D345D8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		775AB96015CA0FFF00D345D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		775AB96115CA0FFF00D345D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		775AB96415CA0FFF00D345D8 /* Apache status-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apache status-Info.plist"; sourceTree = "<group>"; };
+		775AB96615CA0FFF00D345D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		775AB96815CA0FFF00D345D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		775AB96A15CA0FFF00D345D8 /* Apache status-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apache status-Prefix.pch"; sourceTree = "<group>"; };
+		775AB96C15CA0FFF00D345D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		775AB96E15CA0FFF00D345D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		775AB96F15CA0FFF00D345D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		775AB97215CA0FFF00D345D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		775AB97915CA0FFF00D345D8 /* Apache statusTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apache statusTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775AB97A15CA0FFF00D345D8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		775AB98115CA0FFF00D345D8 /* Apache statusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apache statusTests-Info.plist"; sourceTree = "<group>"; };
+		775AB98315CA0FFF00D345D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		775AB98515CA0FFF00D345D8 /* Apache_statusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apache_statusTests.h; sourceTree = "<group>"; };
+		775AB98615CA0FFF00D345D8 /* Apache_statusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apache_statusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775AB95515CA0FFF00D345D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775AB95D15CA0FFF00D345D8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775AB97515CA0FFF00D345D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775AB97B15CA0FFF00D345D8 /* SenTestingKit.framework in Frameworks */,
+				775AB97C15CA0FFF00D345D8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775AB94D15CA0FFF00D345D8 = {
+			isa = PBXGroup;
+			children = (
+				775AB96215CA0FFF00D345D8 /* Apache status */,
+				775AB97F15CA0FFF00D345D8 /* Apache statusTests */,
+				775AB95B15CA0FFF00D345D8 /* Frameworks */,
+				775AB95915CA0FFF00D345D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775AB95915CA0FFF00D345D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775AB95815CA0FFF00D345D8 /* Apache status.app */,
+				775AB97915CA0FFF00D345D8 /* Apache statusTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775AB95B15CA0FFF00D345D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				775AB95C15CA0FFF00D345D8 /* Cocoa.framework */,
+				775AB97A15CA0FFF00D345D8 /* SenTestingKit.framework */,
+				775AB95E15CA0FFF00D345D8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		775AB95E15CA0FFF00D345D8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				775AB95F15CA0FFF00D345D8 /* AppKit.framework */,
+				775AB96015CA0FFF00D345D8 /* CoreData.framework */,
+				775AB96115CA0FFF00D345D8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		775AB96215CA0FFF00D345D8 /* Apache status */ = {
+			isa = PBXGroup;
+			children = (
+				775AB96E15CA0FFF00D345D8 /* AppDelegate.h */,
+				775AB96F15CA0FFF00D345D8 /* AppDelegate.m */,
+				775AB97115CA0FFF00D345D8 /* MainMenu.xib */,
+				775AB96315CA0FFF00D345D8 /* Supporting Files */,
+			);
+			path = "Apache status";
+			sourceTree = "<group>";
+		};
+		775AB96315CA0FFF00D345D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775AB96415CA0FFF00D345D8 /* Apache status-Info.plist */,
+				775AB96515CA0FFF00D345D8 /* InfoPlist.strings */,
+				775AB96815CA0FFF00D345D8 /* main.m */,
+				775AB96A15CA0FFF00D345D8 /* Apache status-Prefix.pch */,
+				775AB96B15CA0FFF00D345D8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		775AB97F15CA0FFF00D345D8 /* Apache statusTests */ = {
+			isa = PBXGroup;
+			children = (
+				775AB98515CA0FFF00D345D8 /* Apache_statusTests.h */,
+				775AB98615CA0FFF00D345D8 /* Apache_statusTests.m */,
+				775AB98015CA0FFF00D345D8 /* Supporting Files */,
+			);
+			path = "Apache statusTests";
+			sourceTree = "<group>";
+		};
+		775AB98015CA0FFF00D345D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775AB98115CA0FFF00D345D8 /* Apache statusTests-Info.plist */,
+				775AB98215CA0FFF00D345D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775AB95715CA0FFF00D345D8 /* Apache status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775AB98A15CA0FFF00D345D8 /* Build configuration list for PBXNativeTarget "Apache status" */;
+			buildPhases = (
+				775AB95415CA0FFF00D345D8 /* Sources */,
+				775AB95515CA0FFF00D345D8 /* Frameworks */,
+				775AB95615CA0FFF00D345D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apache status";
+			productName = "Apache status";
+			productReference = 775AB95815CA0FFF00D345D8 /* Apache status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775AB97815CA0FFF00D345D8 /* Apache statusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775AB98D15CA0FFF00D345D8 /* Build configuration list for PBXNativeTarget "Apache statusTests" */;
+			buildPhases = (
+				775AB97415CA0FFF00D345D8 /* Sources */,
+				775AB97515CA0FFF00D345D8 /* Frameworks */,
+				775AB97615CA0FFF00D345D8 /* Resources */,
+				775AB97715CA0FFF00D345D8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775AB97E15CA0FFF00D345D8 /* PBXTargetDependency */,
+			);
+			name = "Apache statusTests";
+			productName = "Apache statusTests";
+			productReference = 775AB97915CA0FFF00D345D8 /* Apache statusTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775AB94F15CA0FFF00D345D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Eddie Fisher";
+			};
+			buildConfigurationList = 775AB95215CA0FFF00D345D8 /* Build configuration list for PBXProject "Apache status" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 775AB94D15CA0FFF00D345D8;
+			productRefGroup = 775AB95915CA0FFF00D345D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775AB95715CA0FFF00D345D8 /* Apache status */,
+				775AB97815CA0FFF00D345D8 /* Apache statusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775AB95615CA0FFF00D345D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775AB96715CA0FFF00D345D8 /* InfoPlist.strings in Resources */,
+				775AB96D15CA0FFF00D345D8 /* Credits.rtf in Resources */,
+				775AB97315CA0FFF00D345D8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775AB97615CA0FFF00D345D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775AB98415CA0FFF00D345D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		775AB97715CA0FFF00D345D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775AB95415CA0FFF00D345D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775AB96915CA0FFF00D345D8 /* main.m in Sources */,
+				775AB97015CA0FFF00D345D8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775AB97415CA0FFF00D345D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775AB98715CA0FFF00D345D8 /* Apache_statusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775AB97E15CA0FFF00D345D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775AB95715CA0FFF00D345D8 /* Apache status */;
+			targetProxy = 775AB97D15CA0FFF00D345D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775AB96515CA0FFF00D345D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775AB96615CA0FFF00D345D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		775AB96B15CA0FFF00D345D8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775AB96C15CA0FFF00D345D8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		775AB97115CA0FFF00D345D8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775AB97215CA0FFF00D345D8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		775AB98215CA0FFF00D345D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775AB98315CA0FFF00D345D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775AB98815CA0FFF00D345D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		775AB98915CA0FFF00D345D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		775AB98B15CA0FFF00D345D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apache status/Apache status-Prefix.pch";
+				INFOPLIST_FILE = "Apache status/Apache status-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		775AB98C15CA0FFF00D345D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apache status/Apache status-Prefix.pch";
+				INFOPLIST_FILE = "Apache status/Apache status-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		775AB98E15CA0FFF00D345D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Apache status.app/Contents/MacOS/Apache status";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apache status/Apache status-Prefix.pch";
+				INFOPLIST_FILE = "Apache statusTests/Apache statusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		775AB98F15CA0FFF00D345D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Apache status.app/Contents/MacOS/Apache status";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apache status/Apache status-Prefix.pch";
+				INFOPLIST_FILE = "Apache statusTests/Apache statusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775AB95215CA0FFF00D345D8 /* Build configuration list for PBXProject "Apache status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775AB98815CA0FFF00D345D8 /* Debug */,
+				775AB98915CA0FFF00D345D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775AB98A15CA0FFF00D345D8 /* Build configuration list for PBXNativeTarget "Apache status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775AB98B15CA0FFF00D345D8 /* Debug */,
+				775AB98C15CA0FFF00D345D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		775AB98D15CA0FFF00D345D8 /* Build configuration list for PBXNativeTarget "Apache statusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775AB98E15CA0FFF00D345D8 /* Debug */,
+				775AB98F15CA0FFF00D345D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775AB94F15CA0FFF00D345D8 /* Project object */;
+}
