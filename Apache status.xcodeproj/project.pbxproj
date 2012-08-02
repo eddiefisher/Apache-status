@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		774EED1915CA744F00B285F3 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 774EED1715CA744F00B285F3 /* start.png */; };
+		774EED1A15CA744F00B285F3 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 774EED1715CA744F00B285F3 /* start.png */; };
+		774EED1B15CA744F00B285F3 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 774EED1815CA744F00B285F3 /* stop.png */; };
+		774EED1C15CA744F00B285F3 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 774EED1815CA744F00B285F3 /* stop.png */; };
+		774EED2615CA787D00B285F3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 774EED2515CA787D00B285F3 /* icon.png */; };
 		775AB95D15CA0FFF00D345D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775AB95C15CA0FFF00D345D8 /* Cocoa.framework */; };
 		775AB96715CA0FFF00D345D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775AB96515CA0FFF00D345D8 /* InfoPlist.strings */; };
 		775AB96915CA0FFF00D345D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775AB96815CA0FFF00D345D8 /* main.m */; };
@@ -30,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		774EED1715CA744F00B285F3 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		774EED1815CA744F00B285F3 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		774EED2315CA785D00B285F3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		774EED2515CA787D00B285F3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		775AB95815CA0FFF00D345D8 /* Apache status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apache status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		775AB95C15CA0FFF00D345D8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		775AB95F15CA0FFF00D345D8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -72,9 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		774EED2215CA782500B285F3 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				774EED2315CA785D00B285F3 /* icon.png */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
 		775AB94D15CA0FFF00D345D8 = {
 			isa = PBXGroup;
 			children = (
+				774EED2515CA787D00B285F3 /* icon.png */,
 				775AB96215CA0FFF00D345D8 /* Apache status */,
 				775AB97F15CA0FFF00D345D8 /* Apache statusTests */,
 				775AB95B15CA0FFF00D345D8 /* Frameworks */,
@@ -114,8 +132,11 @@
 		775AB96215CA0FFF00D345D8 /* Apache status */ = {
 			isa = PBXGroup;
 			children = (
+				774EED2215CA782500B285F3 /* Resouces */,
 				775AB96E15CA0FFF00D345D8 /* AppDelegate.h */,
 				775AB96F15CA0FFF00D345D8 /* AppDelegate.m */,
+				774EED1715CA744F00B285F3 /* start.png */,
+				774EED1815CA744F00B285F3 /* stop.png */,
 				775AB97115CA0FFF00D345D8 /* MainMenu.xib */,
 				775AB96315CA0FFF00D345D8 /* Supporting Files */,
 			);
@@ -227,6 +248,9 @@
 				775AB96715CA0FFF00D345D8 /* InfoPlist.strings in Resources */,
 				775AB96D15CA0FFF00D345D8 /* Credits.rtf in Resources */,
 				775AB97315CA0FFF00D345D8 /* MainMenu.xib in Resources */,
+				774EED1915CA744F00B285F3 /* start.png in Resources */,
+				774EED1B15CA744F00B285F3 /* stop.png in Resources */,
+				774EED2615CA787D00B285F3 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				775AB98415CA0FFF00D345D8 /* InfoPlist.strings in Resources */,
+				774EED1A15CA744F00B285F3 /* start.png in Resources */,
+				774EED1C15CA744F00B285F3 /* stop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +352,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -354,7 +380,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -442,6 +468,7 @@
 				775AB98C15CA0FFF00D345D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		775AB98D15CA0FFF00D345D8 /* Build configuration list for PBXNativeTarget "Apache statusTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +477,7 @@
 				775AB98F15CA0FFF00D345D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
